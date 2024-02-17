@@ -1,0 +1,349 @@
+/* Light Mode Styles */
+
+  
+  /* Dark Mode Styles */
+  body {
+    margin: 0px !important;
+    padding: 0px !important;
+    background: linear-gradient(45deg, #070719, black) !important;
+    background-size: cover !important;
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Add other dark mode styles here */
+  }
+
+  #particles-js {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  .content {
+    position: relative;
+    z-index: 1;
+    color: white;
+    
+  }
+
+  #scrollIndicator {
+    width: 100%;
+    height: 5px;
+    background-color:#0dcaf0 ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+
+.cor {
+    background-color: blue; /* Defina a cor desejada */
+    border-color: blue; /* Defina a cor da borda, se necessário */
+    /* Adicione outros estilos conforme necessário */
+  }
+
+  .clique{
+    font-size: 1.4rem !important;
+    color: white !important;
+    line-height: 170% !important;
+  }
+  
+
+.btn.btn-outline-info.btn-lg.m-2:hover {
+    padding: 2% !important;
+}
+.navbar-toggler{
+
+  color: #0dcaf0 !important;
+  border-color: #0dcaf0 !important;
+ 
+ 
+  
+}
+
+button{
+    transition: 1s !important;
+}
+
+nav button{
+    color: darkcyan !important;
+
+}
+
+
+.mudanca:hover{
+    background: #070719 !important;
+}
+
+
+header nav a {
+    color: white !important;
+    font-size: 1.5rem !important;
+    margin-right: 2rem !important;
+    margin-left: 1.5rem !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+   
+}
+
+ section button:hover{
+    padding: 1rem !important;
+}
+
+.pag{
+    height: 100vh;
+}
+
+header nav a:hover{
+    border-bottom: 1px solid white;
+   
+}
+
+header nav button {
+    color: white !important;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+}
+
+.info{
+    font-size: 1.6rem !important;
+    color: white !important;
+    line-height: 170% !important;
+    
+}
+
+
+
+.imagem{
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px black !important;
+    transition: 3s !important;
+}
+
+.imagem2{
+    border-radius: 10%;
+    box-shadow: 10px 10px 20px black !important;
+}
+
+.p{
+    font-size: 1.4rem !important;
+    color: white !important;
+    line-height: 170% !important;
+    text-align: justify;
+
+}
+
+.l{
+    font-size: 1rem !important;
+    color: black !important;
+    line-height: 170% !important;
+    text-align: justify;
+
+}
+
+.a{
+    font-size: 1.4rem !important;
+    line-height: 170% !important;
+    text-align:justify;
+
+}
+
+h2{
+    color: white !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px !important;
+    
+}
+
+.destaque{
+    border-bottom: 2px solid #0dcaf0 ;
+}
+
+.icone{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+    cursor: pointer;
+    transition: 2s;
+}
+
+#carouselExampleInterval {
+    border-radius: 20px; /* Adapte o valor conforme necessário */
+    overflow: hidden;   /* Certifica-se de que as bordas arredondadas são aplicadas corretamente */
+    box-shadow: 10px 10px 20px black !important;
+  }
+
+li{
+    font-size: 1.4rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1rem;
+    
+}
+
+.selecao{
+    border: 2px solid #0dcaf0 !important ;
+    border-radius: 8px !important;
+    padding: 20px !important;
+}
+
+
+
+.selecao:hover{
+    background:  darkcyan !important;
+    transition: 2s !important;
+    cursor: pointer !important;
+}
+
+.accordion-flush {
+    border-radius: 10px !important; /* Ajuste o valor conforme necessário */
+    overflow: hidden; /* Para garantir que a borda arredondada seja aplicada corretamente */
+    /* Ajuste o espaçamento inferior conforme necessário */
+  }
+
+  
+footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    margin-bottom: 30px !important;
+    padding: 0px !important;
+    
+}
+
+@keyframes iconeanimado {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 15px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+.bi-caret-down {
+    position: relative; /* Garante que 'bottom' funcione corretamente */
+    animation: iconeanimado 2s infinite; /* Aplica a animação ao ícone */
+}
+
+@keyframes imagem {
+    0% {
+        bottom: 0px;
+    }
+    50% {
+        bottom: 50px;
+    }
+    100% {
+        bottom: 0px;
+    }
+}
+
+.imagem {
+    position: relative; /* Garante que 'bottom' funcione corretamente */
+    animation: imagem 5s infinite; /* Ajusta a duração da animação para 5 segundos */
+}
+
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 25px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 5px;
+    border: 3px solid #fff;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background-color: #070719;
+  }
+  
+  
+  ::-webkit-scrollbar-thumb:hover {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  
+.block{
+    display: block !important;
+}
+
+
+  
+  @media (max-width: 700px){
+    .imagem{
+        width: 60%;
+        
+    }
+    .p{
+        font-size: 1.2rem !important;
+        color: white !important;
+        line-height: 170% !important;
+        text-align: left;
+    
+    }
+
+    .carousel-inner img {
+        width: 100%;
+    }
+
+    iframe{
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    h4{
+        font-size: 1.2rem !important;
+    }
+
+    h1{
+        font-size: 1.7rem !important;
+        text-align: left !important;
+    }
+    
+    .a{
+        font-size: 1rem !important;
+        line-height: 170% !important;
+        text-align:left;
+    
+    }
+
+    .imagem2{
+        border-radius: 10%;
+        box-shadow: 10px 10px 20px black !important;
+        width: 100% !important;
+    }
+   
+    li{
+        font-size: 1.2rem !important;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 1rem;
+    }
+
+   body{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+   }
+      
+    .btn-outline-info btn-lg m-2{
+        width: 50%; 
+    }
+
+    .info{
+        font-size: 1.2rem !important;
+        color: white !important;
+        line-height: 170% !important;
+    }
+
+  }    
+
+
+ 
+ 
+  
